@@ -7,7 +7,7 @@ import authRouter from "./routes/authRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 
 const app = express();
-const allowedOrigin = ["http://localhost:5173"]
+const allowedOrigin = ["https://mern-auth-npq8.onrender.com"]
 
 app.use(cors({
   origin: allowedOrigin, // frontend address
